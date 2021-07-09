@@ -1,0 +1,31 @@
+div
+{
+  height: 600px;
+  width: 100%;
+  border: 2px solid;
+}
+div:hover .bat
+{
+   
+   transform: rotate(60deg);
+}
+.bat
+{
+  margin-left: 500px;
+  margin-top: 200px;
+  width: 300px;height: 300px;
+  transition: transform .5s ease-in;
+}
+.ball
+{
+  background-color: red;
+  height: 40px;width:40px;border-radius: 25px;
+  position: relative;
+  left:540px;
+  bottom: 100px;
+  transition: transform .8s ease-out ;
+}
+div:hover .ball
+{
+  transform: translate(-200px,-200px);
+}

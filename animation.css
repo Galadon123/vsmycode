@@ -1,0 +1,54 @@
+@keyframes bangbang
+{
+    0%
+    {
+          background-color: white;
+          left:0px;
+          top:0px;
+          transform: scale(1);
+    }
+    25%
+    {
+        background-color: hotpink;
+        left: 23%;
+        top:300px;
+        transform:scale(.5);
+    }
+    50%
+    {
+        background-color:red;
+        left:46%;
+        top:0px;
+        transform: scale(1);
+    }
+    75%
+    {
+        background-color: magenta;
+        left:69%;
+        top:300px;
+        transform:scale(.5);
+    }
+    100%
+    {
+         background-color: yellow;
+         left:94%;
+         top:0px;
+         transform:scale(1);
+    }
+}
+.bac
+{
+    background-color: green;
+    height: 400px;
+    width:100%;
+    border:2px solid;
+}
+.ins
+{
+    background-color: red;
+     height: 100px;
+     width: 100px;
+     border-radius: 50px;
+     position: relative;
+     animation:bangbang 5s ease-in-out .1s infinite alternate;
+}

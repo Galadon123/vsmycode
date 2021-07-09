@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        nav ul
+        {
+            list-style: none;
+            display: flex;
+
+        }
+    
+        nav li a
+        {
+            text-decoration: none;
+             color:black;
+             
+        }
+        nav li
+        {
+            margin-right: 20px;
+        }
+        nav ul li:hover
+        {
+            background-color:red;
+        }
+        .hide
+        {
+            display: none;
+            position:absolute;
+            background-color: gray;
+            padding:0;
+            
+        }
+        .hide li
+        {
+            display:box;
+            background-color: #f9f9f9;
+            margin:0;
+            box-shadow: 5px 5px 40px #f9f9f9;
+        }
+        nav  ul li.button:hover ul
+        {
+            display: block;
+        }
+
+        
+    </style>
+</head>
+<body>
+     <nav>
+         <ul>
+             <li><a href="Home">Home</a></li>
+             <li><a href="About">About</a></li>
+             <li class="button"><a href="Contact">Contact
+             <ul class="hide">
+                <li>link 1</li>
+                <li>link 2</li>
+                <li>link 3</li>
+            </ul>
+                  </a></li>
+             <li><a href="Menu">Menu</a></li>
+         </ul>
+     </nav>
+</body>
+</html>
